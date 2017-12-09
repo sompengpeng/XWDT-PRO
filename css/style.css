@@ -1,0 +1,151 @@
+@charset "utf-8";
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft YaheiUI",
+	"Microsoft YaHei",SimHei,"\5B8B\4F53",simsun,sans-serif;
+	/* color: #eee; */
+}
+#navbar-collapse ul{
+	margin-top: 0;
+}
+.navtitile{
+	height: 10%; 
+	padding: 0;
+}
+.navbar {
+	margin-bottom:0: 
+	padding:40px 0;
+}
+.carousel-inner img{
+ margin: 0 auto;
+}
+/* 设置样式 */
+.tab-h2{
+	font-size: 20px;
+	text-align: center;
+	color: #0059b2;
+	letter-spacing: 1px;/* 字体之间做间距 */
+}
+.tab-p{
+	font-size: 15px;
+	color: #999;
+	text-align: center;
+	letter-spacing: 1px;
+	padding: 20px 0 40px 0;
+}
+.tab1{
+	margin: 30px 0;
+	color: #666;
+}
+.tab1 .text-muted{
+	color: #999;
+	text-decoration: line-through;
+}
+.tab1 .media-heading{
+	margin: 5px 0 20px 0;
+}
+.tab1 .col{
+	padding: 20px;
+}
+.jumbotron{
+	background-image: url(../img/bj.jpg);
+	color: #ccc;
+}
+.jumbotron .h1{
+	font-size: 26px;
+	padding: 0 0 0 100px;
+}
+.jumbotron .h4{
+	font-size: 15px;
+	padding: 0 0 0 40px;
+}
+#informartion{
+	background-color: #eee;
+}
+/* footer  start*/
+#footer{
+	padding: 20px;
+	text-align: center;
+	color: #eee;
+	background-color: #666;
+	border-top: 1px solid #ccc;
+}	
+/* footer  end*/
+
+/* 设置屏幕的分辨率 */
+
+/* 小屏幕（平板，大于等于768px）*/
+@media (min-width: 768px) {
+.tab-h2{
+	font-size: 26px;
+}
+.tab-p{
+	font-size: 16px;
+}
+.jumbotron .h1{
+	font-size: 30px;
+}
+.jumbotron .h4{
+	font-size: 16px;
+}
+}
+/* 中屏幕（平板，大于等于992px）*/
+@media(min-width: 992px){
+.tab-h2{
+	font-size: 28px;
+}
+.tab-p{
+	font-size: 17px;
+}
+.jumbotron .h1{
+	font-size: 33px;
+}
+.jumbotron .h4{
+	font-size: 17px;
+}
+}
+/* 大屏幕（平板，大于等于1200px）*/
+@media (min-width:1200px) {
+.tab-h2{
+	font-size: 30px;
+}
+.tab-p{
+	font-size: 18px;
+}
+.jumbotron .h1{
+	font-size: 36px;
+}
+.jumbotron .h4{
+	font-size: 18px;
+}
+}
+
+
+/* 文档样式 */
+ .feature{
+          padding: 30px 0;
+        }
+ .feature-heading{
+          font-size: 30px;
+          color:#2e6296;
+          margin-top: 10px;
+        }
+.feature-heading .feature-title{
+		  text-align:center;
+		}
+.feature-heading .text-muted{
+          font-size: 18px;
+          color: #999；
+        }
+.feature-heading .feature-footer{
+		 text-align:right;
+		}
+.img-circle{
+		width: 120px;
+}
+#about{
+	color: #000000;
+}
+.modal-body-iphone{
+	text-align: right;
+	color: #ff00ff;
+}

@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+	<title>bootStrap 导航条</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+	<div class="navbar-default nav-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a class="navbar-brand"><img style="height: 140%;" src="./img/xw-logo.png" alt="西威电梯江苏有限公司"></a>
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span>  首页</a></li>
+					<li><a href="information.html"><span class="glyphicon glyphicon-plane"></span>  咨询</a></li>
+					<li><a href="case.html"><span class="glyphicon glyphicon-hdd"></span>  案列</a></li>
+					<li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-eye-open"></span>  考核制度  <b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                  <li><a href="#home"><span class="glyphicon glyphicon-th-list"></span>&nbsp;&nbsp;  6S工作的要求和安排</a></li>
+                                  <li class="divider"></li>
+                                  <li><a href="#profile"><span class="glyphicon glyphicon-check"></span>&nbsp;&nbsp;  请假条/出门证的使用说明</a></li>
+                                  <li class="divider"></li>
+                                  <li><a href="#messages"><span class="glyphicon glyphicon-calendar"></span>&nbsp;&nbsp;  生产部强化管理</a></li>
+                                  <li class="divider"></li>
+                                  <li><a href="#leave"><span class="glyphicon glyphicon-check"></span>&nbsp;&nbsp;  请假规定</a></li>
+                                  <li class="divider"></li>
+                                  <li><a href="#management"><span class="glyphicon glyphicon-align-justify"></span>&nbsp;&nbsp;  生产车间岗位规范管理</a></li>
+								                  <li class="divider"></li>
+                                  <li><a href="#notice"><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;  通知</a></li>
+                              </ul>
+                    </li>
+					<li><a href="about.html" data-toggle="modal" data-target="#about" ><span class="glyphicon glyphicon-question-sign"></span>  关于</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--响应式图片轮播 start-->
+	<div id="myCarousel" class="carousel slide">
+		<!-- 自动播放 start -->
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+		</ol>		
+		<!-- 自动播放 end -->
+		
+		<!-- 添加图片 start -->
+		<div class="carousel-inner">
+			<div class="item active" style="background: #223240;"><a href="#"><img src="img/slid1.jpg" alt="第一张图片"></a></div>
+			<div class="item" style="background: #223240;"><a href="#"><img src="img/slid2.jpg" alt="第一张图片"></a></div>
+			<div class="item" style="background: #223240;"><a href="#"><img src="img/slid3.jpg" alt="第一张图片"></a></div>
+			<div class="item" style="background: #223240;"><a href="#"><img src="img/slid4.jpg" alt="第一张图片"></a></div>
+		</div>
+	</div>
+
+	<!--响应式图片轮播 end-->
+
+	<!--内容填充 start-->
+	<div class="tab1">
+			<div class="container">
+				<h2 class="tab-h2">【XIWEI 电梯江苏有限公司-生产部】</h2>
+				<p class="tab-p">西威电梯拥有生产管理体系，严格遵循美国6S品控管理流程，实现人与技术和设备的互动，以人性化的设计工艺和苛刻的制造标准，把控产品生命，让每一件电梯产品更加完美!</p>
+				<div class="row">
+					<div class="col-md-6 col">
+						<div class="media">
+							<div class="media-left">
+								<a href="#"><img src="img/tab-01.jpg" alt="tab01" style="width: 100px"></a>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">轿厢组</h4>
+								<p class="text-muted">电梯轿箱指的就是咱们所处电梯中的空间</p>
+								<p>轿厢是电梯用以承载和运送人员和物资的箱形空间。轿厢一般由轿底、轿壁、轿顶、轿门等主要部件构成。</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col">
+						<div class="media">
+							<div class="media-left">
+								<a href="#"><img src="img/tab-02.jpg" alt="tab01" style="width: 100px"></a>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">轿架组</h4>
+								<p class="text-muted">电梯轿架指的就是咱们所处电梯中的空间</p>
+								<p>轿厢是电梯用以承载和运送人员和物资的箱形空间。轿厢一般由轿底、轿壁、轿顶、轿门等主要部件构成。</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col">
+						<div class="media">
+							<div class="media-left">
+								<a href="#"><img src="img/tab-03.jpg" alt="tab01" style="width: 100px"></a>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">组装组</h4>
+								<p class="text-muted">将零散的电梯组组装起来</p>
+								<p>轿厢是电梯用以承载和运送人员和物资的箱形空间。轿厢一般由轿底、轿壁、轿顶、轿门等主要部件构成。</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col">
+						<div class="media">
+							<div class="media-left">
+								<a href="#"><img src="img/tab-04.jpg" alt="tab01" style="width: 100px"></a>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">喷涂组</h4>
+								<p class="text-muted">电梯组件的喷漆</p>
+								<p>轿厢是电梯用以承载和运送人员和物资的箱形空间。轿厢一般由轿底、轿壁、轿顶、轿门等主要部件构成。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	<!--内容填充 end-->
+	<!-- 资料下载 start -->
+	
+	<!-- 资料下载 end -->
+
+	<!-- 文档内容 start-->
+	 <div class="container" id="summary-container">
+       <ul class="nav nav-tabs" role="tablist" id="tab-list">
+       	 <li class="active"><a href="#home" role="tab" data-toggle="tab">6S工作的要求和安排</a></li>
+        	<li><a href="#profile" role="tab" data-toggle="tab">请假条/出门证的使用说明</a></li>
+        	<li><a href="#messages" role="tab" data-toggle="tab">生产部强化管理</a></li>
+			<li><a href="#leave" role="tab" data-toggle="tab">请假规定</a></li>
+			<li><a href="#management" role="tab" data-toggle="tab">生产车间岗位规范管理</a></li>
+			<li><a href="#notice" role="tab" data-toggle="tab">通知</a></li>
+    </ul>
+    		<!--文档 start-->
+			   <div class="tab-content">
+                <div class="tab-pane active" id="home">
+                  <div class="row feature">
+                      <div class="col-md-12">
+                        <h2 class="feature-heading"><p class="feature-title">关于6S管理工作的要求和安排</p><br><span class="text-muted">
+							为了公司更好更健康的发展，为了我们有个更好的工作环境，公司推行6S管理系统，现对各组的工作环境规范管理、工作岗位、工件、工具、工作区域的卫生作出以下要求：
+							<br>1：在各个工位上的工具、工件、水杯作定点区域摆放。
+							<br>2：各组在工作中产生的垃圾（如轿厢的托架、包装纸、打包带等）应及时清理，在下班前必须清出车间，放到定点处不得随意乱堆乱放。
+							<br>3：各自的工作岗位、设备、工作区环境卫生应在下班前15分钟清理打扫干净。
+							<br>4：各组组长办公桌上除了生产资料及工作所需的物品外不得出现与工作无关的任何物品。
+							<br>5：各组在生产和生活中所产生的垃圾（如手套、早餐包装袋等）请分开，可回收的放置到废铁屋，不可回收的放到垃圾桶，不得随意乱扔。
+							<br>6：在所有整理整顿工作完成之后，各组应保持。
+							<br>
+
+						<br>一：轿厢
+						<br>A：在生产中配件请按规定定点位置摆放整齐，成品待检的需整齐摆放在待检区，检验合格后及时转到组装待包装区并按定点位置摆放整齐。B：生产过程中产生的废料在下班前分类处理到废料区！
+						<br>二：轿架
+						<br>A：所有生产中产生的剩余可利用材料及时整齐摆放在待用区。B：生产中产生的废料应在下班前做好分类清理到废料区。C：所有配件应在定点位置归类摆放整齐。D：型材轿架整台完成，并检验合格后及时转入待喷涂区，并整齐摆放！
+						<br>三：喷涂
+						<br>A：在没有开始喷之前应核对是否已整台配好，核对完成方可进行喷涂，并挪出空位方便轿架放置后续完成的电梯！B：在喷好后的产品放在定点区域C:每日喷涂组应及时对粉房进行清理，避免造成回收粉大批积压，永远无法统一颜色，所以喷房需每日清理！
+						<br>四：组装
+						<br>A：轿厢组检验合格放在组装待包装区的产品需及时包装入库，如仓库来不及配螺丝，需催促他们，不齐也要拉出待包装区，方便轿厢摆放后续生产合同的电梯B：喷涂下来的要及时组装装箱，来不及也要及时拉走，方便喷涂放置后续喷涂好的电梯！C：及时调整摆放区域，确保所有电梯有序并分批次的包装清理D：组装这块无论多忙都要在定在区域安装、包装、摆放，不要随意乱堆乱放，永远给人一种乱七八糟的感觉。E：组装的工作垃圾也比较多，但每个人在工作中只需顺手把垃圾放入垃圾堆，不会耽误你太多时间。F：在所有电梯包装入库后，还要督促发货是否放乱入库电梯，如发现及时与仓库沟通让其摆放整齐（将记入绩效考核范围内）
+						<br>五：仓库
+						<br>A：在外购部件进入车间如要卸货时就要对外购件进行分类，各入各位，摆放整齐B：在发货的时候请不要打乱入库区电梯的位置，及时跟进与归位，不得随意乱放C：集货结束后需核对电梯各个部件是否完整，确认好后方可装车出库D：装好货后需把剩余零散对重块、导轨、垃圾等做好整理、整顿工作，保持装货区的整洁！
+						<br>六：车间内除了吸烟区可以吸烟，其他任何区域都不允许吸烟（吸烟区在厂房西边第二个门门口）
+								
+						<br>以上内容希望各组严格执行！
+							<br> <p class="feature-footer">生产部
+							<br><br>2016.5.19</p>
+						</span></h2> 
+                      </div>
+                      
+                  </div>
+                </div>
+                <div class="tab-pane" id="profile">
+                  <div class="row feature"> 
+                      <div class="col-md-12">
+                        <h2 class="feature-heading"><p class="feature-title">关于请假条与出门证的使用说明</p><span class="text-muted">
+							<br>请假条的使用流程如下图所示：
+                            <br>
+							<br>操作工	--> 组长 --> 生产主管	--> 生产经理  --> 交由刘亚丽存档
+							<br>组长 --> 生产主管 --> 生产经理 --> 交由刘亚丽存档
+							<br>主管 --> 生产经理  --> 交由刘亚丽存档
+							<br>
+							<br>出门证的使用流程如下图所示：
+							<br>
+							<br>操作工 -->  组长 --> 生产经理 -->  门卫 --> 交由刘亚丽存档
+							<br>组长 --> 生产经理 -->  门卫 -->  交由刘亚丽存档
+							<br>主管 --> 生产经理  -->  门卫  --> 交由刘亚丽存档
+							<br>（出门证在出门时交给门卫，返厂时由门卫签完字拿回交由刘亚丽存档）
+							<br>
+								<br>注：操作工包括（生产车间、电气部、仓库）人员
+								<br>
+																	<br><p class="feature-footer">生产部
+																	<br><br>2017.7.5 </p>
+
+						</span></h2> 
+                      </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="messages">
+                  <div class="row feature">
+                    <div class="col-md-12">
+                      <h2 class="feature-heading"><p class="feature-title">关于生产部进一步强化管理的几项要求如下：</p><span class="text-muted">
+					  <br>
+					<br>①	：所有生产部员工在进入公司必须着装工作服，进入车间必须穿劳保鞋，并按要求穿戴，不得随意搭配。
+					<br>②	：上班时间“早8：00——11:30,  12:30——17:00”，两个时间段内如有外出的必须持有蒋经理签字的出门证方可出门，返回时将出门证带回放至刘亚丽处留底保存，带回的出门证必须要有门卫签字。
+					<br>③	：凡是迟到的员工，不得私自进入车间，需由门卫处通知生产主管至门卫处带人方可进入车间。
+					<br>④	：凡是请假的，不管是提前一天请还是当天请都必须写请假条，并走完请假流程后交由刘亚丽处留底保存。如20日结算工资时查出此员工有请假现象，但未收到请假条，将视此员工为旷工处理。
+					<br>⑤	：早餐不得带入公司，车辆必须停放在车棚处。
+					<br>
+					<br>以上几点请各位生产部员工执行到位，如未按要求执行，但上级领导通过厂区摄像头发现违纪违规的，将做双倍处罚。
+					<br>
+														  <br><p class="feature-footer">生产部
+														 <br><br>2017.7.17 </p>
+
+					  </span>
+					  </h2> 
+					</div>  
+                  </div>
+                </div>
+				
+				 <div class="tab-pane" id="leave">
+                  <div class="row feature">
+                    <div class="col-md-12">
+                      <h2 class="feature-heading"><p class="feature-title">生产车间及仓库请假管理及流程</p><span class="text-muted">
+					  <br>
+						<h3>为了完善车间的管理规范现对请假作出如下规定：</h3>
+							<br>1、公司规定每周日为休息日，除特殊情况订单较多较急之外，不安排加班！
+							<br>2、如每周日正常休息，仍然有请假的人员除扣当天工资以外另扣除50元／天，并扣除全勤奖！如因订单较多每月有安排周日或晚上加班，仍然有请假的人员扣除当天工资外另扣20元／天，并扣除全勤奖。
+							<br>3、因订单较急而日产量不足的时候安排加班的，可用实际加班的时间作为调休或补相应的加班费！
+							<br>4、车间及仓库所有人员请假一律按照以下流程：提前写请假条→交由直接负责人（组长）审批（直接负责人必须按照实际情况决定是否批准）→交由直接主管审批（直接主管必须及时与直接负责人（组长）沟通是否可以批准）→交由生产部经理审批→交由刘亚丽登记存档！
+							<br>5、任何请假都必须以请假条为准，特殊情况下未能提前写请假条的必须在事后补上。如未按流程办理自行离开的作为旷工处理扣除当天工资的两倍！
+							<br>6、因病或工伤请假的事后必须提交相关证明给直接主管审阅后交由刘亚丽登记存档，并扣除实际请假天数的工资，丧假婚假按3天为标准发基本工资！
+							<br>7、直接负责人（组长）不经了解实际工作情况胡乱批准影响生产进度甚至造成小组加班的作为第一负责人处罚20元／次，并承担相应责任！
+							<br>8、直接主管未与直接负责人及时沟通私自给与批准的作为第一负责人处罚50元／次，并承担相应责任！
+							<br>9、请过假的不参与平分其所在组其他人员请假的薪资！
+							<br>10、需要外出的，在组长同意的情况下，必须持有由刘亚丽填写登记的出门证方可外出，否则罚款当事人和门卫各20元！
+							<br>9、本规定即日生效，发放各小组组长、主管并存档查阅！
+							<br>
+	
+							<br><p class="feature-footer">生产部
+							<br><br>2016.4.14 </p>
+					  </span>
+					  </h2> 
+					</div>
+                  </div>
+                </div>
+				
+				 <div class="tab-pane" id="management">
+                  <div class="row feature">
+                    <div class="col-md-12">
+                      <h2 class="feature-heading"><p class="feature-title">生产车间岗位规范管理</p><span class="text-muted">
+					  <br>
+							<br>一、目的
+								<br>促进员工规范生产，有序生产，安全生产，提高产品质量，强化车间管理。
+							<br>二、工作职责及处罚办法
+								<br>1、上班时按要求穿戴好工作服，佩戴工号牌，特殊岗位需戴防护镜， 违者每次扣款5元。
+								<br>2、车间严格按照生产计划指令,根据车间设备状况和人员,精心组织生产, 违者每次扣款20元。
+								<br>3、车间如遇原辅材料、包装材料不符合规定,有权拒绝生产,并报告质检部和生产部。如继续生产造成损失，将按《车间不合格产品处理规定》进行处罚。
+								<br>4、员工在生产过程中应严格按照质量标准、工艺规程进行规范操作,不得擅自降低标准,违者每次扣款10元。造成经济损失将按《车间不合格产品处理规定》进行处罚，造成安全事故者将交公司行政部处理。
+								<br>5、车间严禁明火，必须在规定地区吸烟，违者每次扣款20元。如在车间发现一个烟蒂，扣款5元，依以类推。
+								<br>6、加强现场管理随时保证场地整洁、设备光洁、器具清洁，操作人员下班前均要打扫场地和设备卫生，违者每次扣款10元。
+								<br>7、车间生产所剩的边角余料每天必须运出车间,由有关部门统一处理，未按时运出车间，每次扣款10元。
+								<br>8、对于加工出来的铁屑，禁止直接用手拉拽，在确保安全的情况下，使用相应工具摘取，违者每次扣款10元。
+								<br>9、在没有安全防护工具的情况下，严禁近距离靠近旋转设备；刀具、量具不准放在旋转设备上或旋转设备旁，需保持安全距离，违者每次扣款10元。
+								<br>10、设备工作旋转期间，操作人员需坚守岗位，不得擅自离开机床；用餐下班、时间，需关闭机床电源和机器设备，违者每次扣款10元。
+								<br>11、切割机下料时，无论材料大小，都须在关闭电源的情况下，夹紧材料进行切割，同时下料工要经常检查切割片的固定情况，违者每次扣款10元。
+								<br>12、任何人不得在切割机上进行直接打磨或去除毛刺等危险行为，违者每次扣款10元。
+								<br>13、车间生产需安全用电，对于机床、风扇等电器外面的电线要爱惜，如有损坏或裸露现象，相关责任人需及时报修，违者每次扣款10元。
+								<br>14、未经当班人员、车间主任的许可，机床操作人员不得私自开启或关闭电闸，严禁打开电焊用气瓶阀盖，更不可私自使用电焊工具，违者每次扣款10元。
+								<br>15.所有车间人员需爱惜公用财物，严禁破坏公共设施，违者每次扣款10元。
+								<br>16、生产车间内严禁聊岗、串岗、打瞌睡、追逐嘻闹、吃点心、玩手机、玩游戏等，上班期间应保持良好的精神状态，安全操作，规范生产， 违者每次扣款10元。
+								<br>17、员工应注意个人卫生，个人形象，文明用语，礼貌待人，违者每次扣款10元。
+								<br>18、车间员工必须服从车间安排,对不服从安排者每次扣款20元,对不服从安排者进行谩骂或人身攻击者每次扣款50元，交公司行政部处理，次日早会宣读检讨书。
+								<br>19、打架斗殴的一次性扣款200元，交公司行政部处理，次日早会宣读检讨书。
+								<br>20、对盗窃公司财产者,不论价值多少一律交公司行政部处理。
+								<br>21、任何员工违反制度当月处以一定扣款外，并纳入月终考核范畴。
+								<br>22、为了加强监督机制，鼓励员工对各类违章行为进行举报，一经核实，按实际情况给予10-100元不等奖励。
+								<br>23、鼓励员工参与管理，对于提出的行之有效的建议或意见，一经采纳，每次给予10元-50元不等奖励。
+								<br>24、员工在工作过程中如发现问题，及时提出并有效避免一定的经济损失，按实际情况给予10元-200元不等奖励。
+								<br>25、员工对于公司产品提出合理化建议，经有关部门确认有效，按实际情况给予50元-500元不等奖励。
+							<br>三、本制度由行政部负责制定和解释。
+							<br>四、本制度自2014年10月起试运行。（如车间员工对本制度无任何异议，定于2015年1月1日执行）
+							<br>
+							<br>纪律考核细则
+							<br>1．目的
+							   <br>为了保证公司日常工作的顺利开展，提高全体员工职业道德，严明公司劳动纪律，特制定本考核细则。
+							<br>2．范围
+							   <br>本考核细则适用于公司车间全体员工（包括试用工和临时工）
+							<br>3．考核内容
+							    <br>3．1上班期间不得穿短裤、背心和拖鞋上岗，办公室严禁戴帽，违者一次扣0.5分；
+								<br>3．2员工一律穿工作服、工作裤，女员工必须戴工作帽（头发束在帽内）上岗；所有人员进入车间一律穿工作服，不得穿露趾鞋和裙装，女职员须戴好工作帽，违者一次扣0.5分；
+								<br>3．3车间员工必须自觉遵守劳动纪律，按时上下班，不迟到，不早退、不过早停工等待就餐或下班。违者一次扣0.5分，当月累计5次以上者，行政纪律项为0分；
+								<br>3．4工作时间不得擅自离开工作岗位，外出办理业务前须经本部门负责人同意，违者一次扣0.5分；
+								<br>3．5旷工半天者，扣2分；当月累计旷工一天者，扣2分，并警告一次；当月累计旷工2天者，扣5分，并警告一次；当月累计旷工3天以上（包含3天）者，当月行政纪律项为0分，并予以辞退；
+								<br>3．6上班、下班、工作期间外出或请假必须履行打卡制度，违者一次扣0.5分（打卡机异常需填写未打卡证明）；
+								<br>3．7工作期间外出办事需主动出示《出门证》，门卫履行监督查看义务需积极配合，违者一次扣0.5分；
+								<br>3．8员工携带公司物资外出需主动出示《物资出门证》，门卫履行监督查看义务需积极配合，违者一次扣1分；
+								<br>3．9员工请假（包含事假、病假等）需履行正常请假制度，违者一次扣0.5分；
+								<br>3．10事假1天，病假2天者不扣分（请假频率不可超过2次）；超出以上标准每请假1天扣0.25分，病假扣0.125分。当月事假累计3天以上者扣2分，5天以上者扣5分；病假累计4天以上者扣2分，6天以上者扣5分；
+								<br>3．11车间禁止打牌、下棋、玩手机、玩游戏等做与工作无关的事情，违者一次扣1分；当月累计3至5次者，扣5分；当月累计5次以上者，行政纪律项为0分；
+								<br>3．12参加公司组织的会议、培训、学习、考试或其他团队活动，如有事请假的，必须履行请假制度。在规定时间内未到或早退的，按照本制度第三条第一款规定处理；未经批准擅自不参加的，视为旷工，按照本制度第三条第三款规定处理。 
+								<br>3．13上班期间需严格遵守公司6S管理制度，并按6S管理规定处理。
+							<br>4．考核职责
+								<br>具体考核责任人为部门领导、行政部。
+						    <br>5．考核管理
+								<br>行政部负责员工行政纪律违纪考核资料的管理。
+							<br>6．考核监督
+								<br>公司所有员工均负有监督之职。
+							<br>7．考核上报
+								<br>部门领导于每月十五日及每月三十日将部门员工行政纪律违纪情况上报行政部。
+							<br>8．考核统计
+								<br>行政部于每月一日汇总被考核人的个人行政纪律违纪情况，并提交被考核人直接上级以便考核。
+							<br>9．附则
+							    <br>9．1本制度由行政部负责修订和解释；
+							<br>10．1本制度自2014年10月起试运行；（如车间员工对本制度无任何异议，定于2015年1月1日执行）
+                            <br>
+							<br><p class="feature-footer"></span><a href="./doc/生产车间岗位规范管理办法.doc" download="生产车间岗位规范管理" class="btn btn-lg" role="button" target="_blank"><span class="glyphicon glyphicon-download-alt"></a> </p>	
+					  </span>
+					  </h2> 
+					</div>
+                  </div>
+                </div>
+				
+				 <div class="tab-pane" id="notice">
+                  <div class="row feature">
+                    <div class="col-md-12">
+                      <h2 class="feature-heading"><p class="feature-title">生产部考核制度</p>
+					  <span class="text-muted">
+							<br>
+							<br>为了促进员工规范生产.有序生产.安全生产.提高产品质量，强化车间管理。现向各位员工通知本考核制度及扣分明细！
+									<br>考核内容及扣分明细如下：
+										<br>1：上班期间不得穿短裤.背心和拖鞋上岗，违者一次扣10元
+										<br>2：上班期间一律穿着工作服.工作裤，不得随意搭配，违者一次扣10元！
+										<br>3：车间员工要严格遵守公司规章制度，按时上下班，不迟到不早退，不提早停工等待就餐或下班，违者一次扣10元！
+										<br>4：工作时间内不得擅自离开工作岗位，严禁串岗聊天，聚岗聊天！违者一次扣10元！
+										<br>5：员工请假（包含事假.病假）需履行正常请假记录制度！上班时间内需外出的必须持有公司统一出门证出门，违者一次扣10元!
+										<br>6：车间内禁止打牌.下棋.玩手机.玩游戏.戴耳机.聊天等…违者一次扣10元!
+										<br>7：车间内禁止停放员工的交通工具，早八点以后车间内不允许吃早饭，违者一次扣10元！
+										<br>8：下午下班前15分钟时间为整理整顿打扫时间.请各位员工合理利用起来.不允许利用这15分钟时间聊天.玩手机.违者一次扣10元！
+									<br>
+									<br>本考核也作为每月考核内容，每个月将作出月度考核评比，工作表现优秀的将给予奖励，表现不好的将给予处罚！
+									<br>本制度也作为年度考核，月考核保持良好的将被评比为年度优秀员工，将给予奖励！望各位员工能够认真遵守公司规章制度！也为了把公司的形象提升的更好！
+										  <br><p class="feature-footer">生产部
+														 <br><br>2015.10.10 </p>
+									<br>
+					 </span>
+					  </h2> 
+					</div>  
+                  </div>
+                </div>
+				
+            </div>
+
+			<!--文档 end-->    		
+	
+	</div>
+	<!-- 文档内容 end -->
+	<!-- footer start -->
+	 <footer id="footer">
+	 	<div class="container">
+	 		<p>生产管理 | 生产流程 | 生产制度</p>
+	 		<p>苏ICP 备 12345678.@ 2017年12月  by SOMpeng 制</p>		
+	 	</div>
+	 </footer>
+	<!-- footer end -->
+
+	 <!--弹出框 start-->
+
+        <div class="modal fade" id="about">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!--header-->
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">
+                        &times;<span class="sr-only">Close</span>
+                      </span>
+                      </button>
+                          <h4 class="modal-title">关于</h4>
+                    </div>
+                    <!--body-->
+                    <div class="modal-body">
+                      <p>...西威电梯江苏有限公司-生产部...</p>
+                       <br>
+                       <br>
+                       <p class="modal-body-iphone">联系人：蒋经理</p>
+                       <p class="modal-body-iphone">联系电话: 0527-80832232</p>
+                    </div>
+                    <!--footer-->
+                    <div class="modal-footer">
+                      <button class="btn btn-default" type="button" data-dismiss="modal"> 确认</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--弹出框 end-->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>	
+	<script src="js/som.js"></script>
+</body>
+</html>
