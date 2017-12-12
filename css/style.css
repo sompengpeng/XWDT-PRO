@@ -2,7 +2,9 @@
 body{
 	font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft YaheiUI",
 	"Microsoft YaHei",SimHei,"\5B8B\4F53",simsun,sans-serif;
-	/* color: #eee; */
+	 background-color: #eee; 
+	 /* color: #666; */
+	  
 }
 #navbar-collapse ul{
 	margin-top: 0;
@@ -48,6 +50,8 @@ body{
 }
 .jumbotron{
 	background-image: url(../img/bj.jpg);
+	background-size:100% 100%;
+	background-attachment: fixed;
 	color: #ccc;
 }
 .jumbotron .h1{
@@ -59,7 +63,66 @@ body{
 	padding: 0 0 0 40px;
 }
 #informartion{
+	background-color: #fff;
+	padding: 40px 0;
+}
+.info-content{
+	background-color: #fff;
+	margin: 0 0 20px 0;
+	box-shadow: 2px 2px 3px #ccc;
+}
+.info-content img{
+	margin: 12px 0;
+}
+.info-content h4{
+    padding:2px 0 0 0; 
+    color: #181818;
+    font-size: 14px;
+}
+.info-content p{
+	line-height: 1.3;
+	color: #989898;
+}
+.info-right{
+	background-color: #fff;
+	box-shadow: 2px 2px 3px #ccc;
+}
+.info-right blockquote{
+	margin: 0;
+	padding: 0;
+} 
+.info-right h2{
+	font-size: 25px;
+	color: #333;
+	padding: 5px;
+}
+.info-right h4{
+	color: #333;
+	font-size: 20px;
+	padding-top:60px;
+}
+
+#about{
 	background-color: #eee;
+	padding: 40px 15px;
+}
+#about a{
+    color: #0059b2; 
+}
+#about h3{
+   color: #333;
+   font-size: 18px;
+   border-bottom: 1px solid #eee;
+   padding: 20px 0;
+   margin: 0 0 10px 0;
+}
+#about p{
+   line-height: 2;
+   font-size: 13px;
+}
+#about .about{
+	background-color: #fff;
+	box-shadow: 2px 2px 3px #ccc;
 }
 /* footer  start*/
 #footer{
@@ -87,6 +150,18 @@ body{
 .jumbotron .h4{
 	font-size: 16px;
 }
+.info-content h4{
+    font-size: 16px;
+    overflow: hidden;/* 当小于768的时候隐藏长的部分，以...的形式呈现出来*/
+    white-space: nowrap;
+    text-overflow: ellipsis; 
+}
+#about h3{
+   font-size: 19px;
+}
+#about p{
+   font-size: 14px;
+}
 }
 /* 中屏幕（平板，大于等于992px）*/
 @media(min-width: 992px){
@@ -102,6 +177,15 @@ body{
 .jumbotron .h4{
 	font-size: 17px;
 }
+.info-content h4{
+    font-size: 18px;
+}
+#about h3{
+   font-size: 20px;
+}
+#about p{
+   font-size: 15px;
+}
 }
 /* 大屏幕（平板，大于等于1200px）*/
 @media (min-width:1200px) {
@@ -116,6 +200,15 @@ body{
 }
 .jumbotron .h4{
 	font-size: 18px;
+}
+.info-content h4{
+    font-size: 20px;
+}
+#about h3{
+   font-size: 22px;
+}
+#about p{
+   font-size: 16px;
 }
 }
 
