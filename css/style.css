@@ -124,6 +124,18 @@ body{
 	background-color: #fff;
 	box-shadow: 2px 2px 3px #ccc;
 }
+#assemble{
+	padding: 40px 10px;
+	background-color: #eee;
+	text-align: center;
+}
+#assemble h4{
+	color: #666;
+}
+#assemble p{
+	color: #666;
+	line-height: 1.6;
+}
 /* footer  start*/
 #footer{
 	padding: 20px;
