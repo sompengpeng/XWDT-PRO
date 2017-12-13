@@ -136,6 +136,18 @@ body{
 	color: #666;
 	line-height: 1.6;
 }
+#car{
+	padding: 40px 10px;
+	background-color: #eee;
+	text-align: center;
+}
+#car h4{
+	color: #666;
+}
+#car p{
+	color: #666;
+	line-height: 1.6;
+}
 /* footer  start*/
 #footer{
 	padding: 20px;
