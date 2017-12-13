@@ -148,6 +148,30 @@ body{
 	color: #666;
 	line-height: 1.6;
 }
+#flame{
+	padding: 40px 10px;
+	background-color: #eee;
+	text-align: center;
+}
+#flame h4{
+	color: #666;
+}
+#flame p{
+	color: #666;
+	line-height: 1.6;
+}
+#horse{
+	padding: 40px 10px;
+	background-color: #eee;
+	text-align: center;
+} 
+#horse h4{
+	color: #666;
+} 
+#horse p{
+	color: #666;
+	line-height: 1.6;
+} 
 /* footer  start*/
 #footer{
 	padding: 20px;
