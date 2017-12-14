@@ -384,32 +384,35 @@
 
 	 <!--弹出框 start-->
 
-       <!--  <div class="modal fade" id="about">
+         <div class="modal fade" id="myModal" tabindex="-1">
            <div class="modal-dialog">
                <div class="modal-content">
-                   header
+                   <!-- header -->
                    <div class="modal-header">
                      <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">
                        &times;<span class="sr-only">Close</span>
                      </span>
                      </button>
-                         <h4 class="modal-title">关于</h4>
+                         <h4 class="modal-title">通知</h4>
                    </div>
-                   body
+                   <!-- body -->
                    <div class="modal-body">
-                     <p>...西威电梯江苏有限公司-生产部...</p>
+                     <h4>西威电梯--生产部</h4>
+                     	<p>今天下午4：00 pm 在生产部办公室开会</p>
+                     	<p>参见人员：</p>
+                     	<p>张三, 李四, 王五</p>
                       <br>
                       <br>
                       <p class="modal-body-iphone">联系人：蒋经理</p>
                       <p class="modal-body-iphone">联系电话: 0527-80832232</p>
                    </div>
-                   footer
+                   <!-- footer -->
                    <div class="modal-footer">
                      <button class="btn btn-default" type="button" data-dismiss="modal"> 确认</button>
                    </div>
                </div>
            </div>
-       </div> -->
+       </div> 
 
         <!--弹出框 end-->
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -417,5 +420,8 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script>	
 	<script src="js/som.js"></script>
+	<script type="text/javascript">
+		 $('#myModal').modal();
+	</script>
 </body>
 </html>

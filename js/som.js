@@ -8,4 +8,5 @@
                var href=$(this).attr("href");
                $("#tab-list a[href='" + href + "']").tab("show");
             });
-          });
+    });
+	
